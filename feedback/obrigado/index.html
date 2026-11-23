@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Obrigado · Nui Experience</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#000D3C">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,800;1,300&family=Cormorant+Garamond:ital,wght@1,500&display=swap">
+<style>
+:root{--navy:#000D3C;--line:#24306A;--orange:#D27716;--orange-soft:#F0A04B;--muted:#C3C8DA;--white:#FFFFFF;color-scheme:dark}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--navy)}
+body{color:var(--white);font-family:"Montserrat",system-ui,sans-serif;line-height:1.55;min-height:100vh;min-height:100dvh;display:flex;align-items:center;overflow-x:hidden}
+.bar{position:fixed;top:-60px;bottom:-60px;background:var(--orange);transform:skewX(-12deg);pointer-events:none}
+.bar.a{right:-70px;width:150px;opacity:.08}.bar.b{right:110px;width:16px;opacity:.22}
+.col{max-width:520px;margin:0 auto;padding:48px max(20px,env(safe-area-inset-right,0px)) 48px max(20px,env(safe-area-inset-left,0px));display:flex;flex-direction:column;gap:22px;position:relative}
+.lock{display:flex;align-items:flex-end;gap:10px}
+.lock img{height:40px;width:auto;display:block}
+.lock span{font-style:italic;font-weight:300;font-size:27px;line-height:.9;color:var(--orange);padding-bottom:2px}
+h1{margin:0;font-family:"Cormorant Garamond",Georgia,serif;font-style:italic;font-weight:500;font-size:40px;line-height:1.1}
+p{margin:0;color:var(--muted)}
+a.btn{display:inline-flex;align-items:center;justify-content:center;background:var(--orange);color:var(--navy);font-weight:800;text-decoration:none;padding:16px 22px;border-radius:4px;min-height:52px}
+a.btn:hover{background:var(--orange-soft)}
+a.btn:focus-visible{outline:3px solid var(--white);outline-offset:3px}
+</style>
+</head>
+<body>
+<div class="bar a" aria-hidden="true"></div><div class="bar b" aria-hidden="true"></div>
+<main class="col">
+  <div class="lock"><img src="/assets/nui-symbol-white.png" alt="nui"><span>experience</span></div>
+  <h1>Obrigado pela sua opinião.</h1>
+  <p>Ela vai direto para a nossa equipe. Se você pediu para conversar com um especialista, vamos te chamar no WhatsApp.</p>
+  <a class="btn" href="https://www.instagram.com/nuiconsorciosinteligentes/" target="_blank" rel="noopener">Seguir a Nui no Instagram</a>
+</main>
+</body>
+</html>
